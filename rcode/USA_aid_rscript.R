@@ -45,7 +45,7 @@ FINAL_AID_DATA %>%
   xlab("")
 
 #збереження графіку
-ggsave("C:/Users/Serhii.Tytiuk/Desktop/KSE/Pol_group/boxplot.png", width = 8, height = 8, dpi = 300)
+ggsave("../USA-COVID-19-aid/tables and visualization/boxplot.png", width = 8, height = 8, dpi = 300)
 
 #виділення підмасиву зі змінними для кореляційної матриці + сама матриця?
 predictors <- FINAL_AID_DATA %>%
